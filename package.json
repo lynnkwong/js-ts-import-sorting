@@ -1,0 +1,24 @@
+{
+  "name": "js-ts-import-sorting-example",
+  "version": "1.0.0",
+  "description": "Demo project for setting up automatic import sorting for JS/TS code.",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "author": "Lynn",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "husky": "^8.0.0"
+  }
+}

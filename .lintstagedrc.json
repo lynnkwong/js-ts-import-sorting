@@ -1,0 +1,5 @@
+{
+  "*.ts": "bash -c \"npx tsc --noEmit --project tsconfig.json\"",
+  "*.{js,jsx,ts,tsx,html,css}": "npx prettier --write",
+  "*.{js,jsx,ts,tsx}": "npx eslint --fix"
+}

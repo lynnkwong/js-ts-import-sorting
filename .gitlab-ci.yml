@@ -1,0 +1,13 @@
+image: "node:18.10.0-alpine"
+
+stages:
+  - Styling and Linting
+
+static-code-checking:
+  stage: Styling and Linting
+  allow_failure: false
+  script:
+    - npm install
+    - npx tsc --noEmit --project tsconfig.json
+    - npx prettier --check src/
+    - npx eslint src/
